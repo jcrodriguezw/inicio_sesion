@@ -1,0 +1,187 @@
+*{
+  font-size: 13px;
+  line-height:1.42;
+  font-family: Gotham SSm,Helvetica,Arial,sans-serif;
+}
+
+.App {
+  width: 500px;
+  margin: 100px auto;
+  padding: 10px;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+.subcontainer {
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+ h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.title p {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  display: none;
+}
+
+.input_username {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left:19px;
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  font-family: 13.13px inherit;
+  letter-spacing: 0.5px;
+}
+
+.input_password {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left:19px;
+  width: 100%;
+  box-sizing: border-box; 
+  height: 40px; 
+}
+
+input:hover {
+  border: 1px solid #37a000;
+}
+
+input:focus {
+  outline:0px;
+  border: 1px solid #37a000;
+}
+
+
+.container_check {
+
+  float: left;
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-right: 10px;
+  
+}
+
+.container_check label {
+  font-size: 12.5px;
+  font-weight: 400;
+}
+
+p {
+  padding-top: 10px;
+  text-align: right;
+  padding-right: 2em;
+}
+
+p a {
+  text-decoration: none;
+  color: #37a000;
+  font-weight: bold;
+}
+
+.btn-login {
+  background: #37a000;
+  display: block;
+  width: 100%;
+  padding-top:10px;
+  padding-bottom:10px;  
+  font-weight: 800;
+  color: white;
+  border: none;
+  margin-bottom: 2em;
+}
+.btn-login:hover {
+  background: rgba(18, 95, 3, 0.9);
+  transition: all 0.5s;
+}
+
+.btn-signup {
+  width: 100px;
+  padding-top:10px;
+  padding-bottom:10px;
+  background: #fff;
+  color:#37a000;
+  border-color: transparent;
+  box-shadow: 0 1px 6px rgba(57,73,76,.35)
+}
+
+.error {
+  border: 3px solid red;
+}
+
+@media (max-width:1200px) {
+  .App {
+    padding:0;
+    width: 40%;
+  }
+
+  .subcontainer {
+      width: 100%;
+  }
+  h1 {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width:768px) {
+  .App {
+    width:100%;
+  }
+
+  .subcontainer {
+    width: 80%;
+    
+  }
+
+  h1 {
+    padding-top:10px;
+  }
+
+  .container_check {
+    width: 100%;
+    text-align: left;
+  }
+
+  p {
+    width: 100%;
+    text-align: left;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .title p {
+    display: block;
+  }
+
+}
+
+@media (max-width:575px) {
+  .subcontainer {
+    width: 90%;
+  }
+}
+
+@media (max-width:350px) {
+  .btn-signup {
+    display: block;
+    }
+  
+}
